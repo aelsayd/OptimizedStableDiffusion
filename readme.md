@@ -1,10 +1,12 @@
 # Optimized stable diffusion for 8gb of vram
 
-Supports up to sd 2.1, including depth checkpoints, textual inversion, inference and evolution.
-
-usage: Stable diffusion semi fork [-h] -t TYPE [-p PROMPT] [-i IMAGE] [-m MASK] [-w WIDTH] [-k HEIGHT] [-r ROWS] [-c COLUMNS] [-n INFERENCE] [-o OUT]
-
 Mixes most current available huggingface checkpoints into one program that is accesible from the command line and doesnt have a huge amount of dependencies
+
+Supports up to sd 2.1, including depth checkpoints, textual inversion, inference and evolution.
+```
+usage: Optimized Stable diffusion [-h] -t TYPE [-p PROMPT] [-i IMAGE] [-m MASK] [-w WIDTH] [-k HEIGHT] 
+        [-r ROWS] [-c COLUMNS] [-n INFERENCE] [-o OUT]
+
 
 options:
   -h, --help            show this help message and exit
@@ -25,9 +27,8 @@ options:
                         number of inferences used
   -o OUT, --out OUT     output path
 
-Lightweight...
-
+```
 
 # Example output:
 
-![](4.png)
+![](examples/4.png)
